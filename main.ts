@@ -3,7 +3,7 @@ basic.showIcon(IconNames.Diamond)
 basic.pause(2000)
 basic.forever(function () {
     luz = input.lightLevel()
-    if (luz < 100) {
+    if (luz < 80) {
         basic.showString("ON")
         pins.digitalWritePin(DigitalPin.P0, 1)
         pins.digitalWritePin(DigitalPin.P1, 1)

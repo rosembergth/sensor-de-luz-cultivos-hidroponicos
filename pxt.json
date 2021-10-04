@@ -1,5 +1,5 @@
 {
-    "name": "sensor de luz cultivos hidroponicos",
+    "name": "alimentacion_galpones",
     "description": "",
     "dependencies": {
         "core": "*",
